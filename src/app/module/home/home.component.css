@@ -1,0 +1,30 @@
+header{
+    height: 7rem;
+    line-height: 6rem;
+    background: #FFB6C1;
+    color: white;
+    padding-left: 3rem;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+h2{
+    margin: 0 2rem 0 0;
+    display: inline-block;
+}
+.content{
+    height: calc(100% - 6rem);
+}
+.header_tab_bar_button{
+    background: #FFB6C1;
+    color: #FFFFFF;
+    width: 8rem;
+    height: 4.94rem;
+    font-size: 1.8rem;
+    border: none;
+    margin: 0 0.6rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.header_tab_bar_button:focus{
+    outline: none;
+}
